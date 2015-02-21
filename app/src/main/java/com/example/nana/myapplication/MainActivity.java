@@ -2,7 +2,6 @@ package com.example.nana.myapplication;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 
 
@@ -14,9 +13,6 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         //testing git
     }
-
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -32,4 +28,5 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    //test commit
 }
